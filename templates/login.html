@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login - Amazon</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body>
+  <div class="header">
+    <!-- Home Button -->
+    <button class="home-btn" onclick="window.location.href='/index'">Home</button>
+  </div>
+
+  <div class="login-container">
+    <div class="login-box">
+      <h1 class="login-header">Sign-In</h1>
+      
+      <!-- Login Form -->
+      <form action="/login_validation" method="POST">
+        <div class="input-group">
+          <label for="email">Email or mobile phone number</label>
+          <input type="text" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        
+        <!-- Sign-In Button -->
+        <button type="submit" class="sign-in-btn">Sign-In</button>
+
+        <!-- Forgot Password link -->
+        <div class="forgot-password">
+          <a href="#">Forgot your password?</a>
+        </div>
+        
+      </form>
+
+      <!-- Create new account -->
+      <div class="new-account">
+        <p>New to Amazon?</p>
+        <button class="create-account-btn" onclick="window.location.href='/register'">Create your Amazon account</button>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/.js') }}"></script>
+</body>
+</html>

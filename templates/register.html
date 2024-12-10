@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Create Account - Amazon</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+</head>
+<body>
+  <div class="header">
+    <!-- Home Button -->
+    <button class="home-btn" onclick="window.location.href='/index'">Home</button>
+  </div>
+
+  <div class="register-container">
+    <div class="register-box">
+      <h1 class="register-header">Create account</h1>
+      
+      <!-- Registration Form -->
+      <form action="/add_user" method="POST">
+        <div class="input-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="uname" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email (Mobile)</label>
+          <input type="email" id="email" name="uemail" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="upassword" required>
+        </div>
+        <div class="input-group">
+          <label for="password-confirm">Re-enter password</label>
+          <input type="password" id="password-confirm" name="password-confirm" required>
+        </div>
+
+        <button type="submit" class="create-account-btn">Create your Amazon account</button>
+      </form>
+
+      <div class="terms">
+        <p>By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+      </div>
+      
+      <div class="existing-account">
+        <p>Already have an account?</p>
+        <button class="sign-in-btn" onclick="window.location.href='/login'">Sign-In</button>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/.js') }}"></script>
+</body>
+</html>
+
