@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Nav-Logo{
+    height:50px;
+    width:100px;
+}
+.Logo{
+    background-image: url('../images/image.png');
+    height:50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid black;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add2{
+    font-size: 14px;
+    color:#CCCCCC;
+    margin-left:15px;
+}
+.add1{
+    font-size: 16px;
+    color:#FFFFFF;
+    margin-left:5px;
+}
+.add-icon{
+    display:flex;
+}
+.nav-search{
+    display:flex;
+    background-color: orange;
+    width: 620px;
+    height:40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.all{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #F3F3F3;
+    width:50px;
+    text-align: center;
+}
+.sea{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-Am{
+    display: flex;
+    justify-content: center;
+}
+.rica{
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: black;
+    margin-left: 5px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+.Anchor{
+    height: 50px;
+    background-color: #0F1111;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 17px;
+    border: #0F1111;
+}
+.panel-deals i{
+    font-size: 30px;
+}
+.panel-ops{
+    width:70%;
+}
+.Great{
+    font-size: 14px;
+    color:#CCCCCC;
+    margin-left:25px;
+}
+.Festival{
+    display:flex;
+}
+.Shop{
+    font-size: 20px;
+    color:#FFFFFF;
+    margin-left:5px;
+}
+.Festival i{
+    align-items: center;
+}
+.border1{
+    border: 2px solid #0F1111;
+}
+.border1:hover{
+    border: 2px solid white;
+}
+.Hero-section{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Jupiter24/HERO1/J24_GW_PC_non-prime_RNP--unrec_end-frame_Shop-now_2X_R1._CB562558129_.jpg");
+    background-size: cover;
+    height:380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.Hero-msg{
+    color:black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:2800px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.Hero-msg a{
+    color:blue;
+}
+.Box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(218, 60, 113);
+}
+.box1{
+    Height:400px;
+    width:24%;
+    border:2px solid black;
+    background-color: white;
+}
+#Fo{
+    font-size: 21px;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+.Box-ig{
+    height: 280px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.box1 a{
+    color: blue;
+    position: relative;
+    left:20px;
+    text-decoration: none;
+}
+#up{
+    font-size: 21px;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.tv{
+    height: 280px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.box1 a{
+    color: blue;
+    position: relative;
+    left:20px;
+    text-decoration: none;
+}
+#Fa{
+    font-size: 21px;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+
+.img1{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.img2{
+    height: 100px;
+    width:130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.igg1{
+    display: flex;
+}
+#Cl{
+    position: relative;
+    right:55px;
+    
+    font-size:12px;
+    bottom: 20px;
+}
+#Cl1{
+    position: relative;
+    right:73px;
+    font-size:12px;
+    bottom: 20px;
+}
+.Kurtas{
+    display: flex;
+    justify-content: space-around;
+}
+.mind{
+    display: flex;
+    justify-content: space-around;
+}
+.img3{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}.img4{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.jeans{
+    display: flex;
+    justify-content: space-around;
+}
+#Dresses{
+    position: relative;
+    right:43px;
+    font-size:12px;
+    bottom: 20px;
+}
+#Sarees{
+    position: relative;
+    right:49px;
+    font-size:12px;
+    bottom: 20px;
+}
+#iu{
+    font-size: 21px;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.igg2{
+    display: flex;
+}
+
+.img5{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.img6{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+#Ac{
+    position: relative;
+    right:27px;
+    font-size:12px;
+    bottom: 20px;
+}
+#Dc{
+    position: relative;
+    right:58px;
+    font-size:12px;
+    bottom: 20px;
+}
+.Freeze{
+    display: flex;
+    justify-content: space-around;
+}
+.igg3{
+    display: flex;
+}
+.img7{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.img8{
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    position: relative;
+    margin:20px 20px 20px 20px;
+}
+.Furniture{
+    display: flex;
+    justify-content: space-around;
+}
+#wood{
+    position: relative;
+    right:30px;
+    font-size:12px;
+    bottom: 20px;
+}
+#teak{
+    position: relative;
+    right:12px;
+    font-size:12px;
+    bottom: 20px;
+}
+
+
